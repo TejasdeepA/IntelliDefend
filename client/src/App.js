@@ -5,7 +5,7 @@ function App() {
   const [data, setData] = useState("");
 
   useEffect(() => {
-    axios.get("http://127.0.0.1:8000/")
+    axios.get("https://intelli-defend-server.vercel.app/")
       .then(res => setData(res.data.message))
       .catch(err => console.log(err));
   }, []);
