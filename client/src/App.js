@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import axios from "axios";
 
 // Replace with your Railway backend URL
-const API_URL = "intellidefend-production.up.railway.app";
+const API_URL = "https://intellidefend-production.up.railway.app/";
 
 function App() {
   const [apiStatus, setApiStatus] = useState("checking...");
